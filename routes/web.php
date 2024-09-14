@@ -30,7 +30,7 @@ use App\Http\Controllers\paymentgateway\complete;
 use App\Http\Controllers\paymentgateway\initiate;
 use App\Http\Controllers\WithdrawForm;
 use App\Http\Controllers\QrCodeController;
-
+use App\Http\Controllers\PaymentController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -247,6 +247,8 @@ Route::group(['middleware' => 'admin_auth'], function () {
         Route::post('/contact/list/delete/{id}', [FrontController::class, 'DeleteContact']);
 
         Route::get('/clear', [FrontController::class, 'ClearCache']);
+
+        Route::get('/withdraw-requests', [PaymentController::class, 'index'])->name('withdraw.requests');
     });
 });
 
