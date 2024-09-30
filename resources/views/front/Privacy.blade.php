@@ -104,31 +104,72 @@ $home = DB::table('homedetails')->first();
         </div>
         <!--breadcrumb section end-->
 
-        <!--blog section start-->
-        <div class="module pt-100">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-12">
-                        <center>
-                            <!-- Post-->
-                            <article class="post">
-                                <div class="post-wrapper">
-                                    <div class="post-header">
-                                        <h2 class="post-title">{{ $web->privacy_title }}</h2>
-                                    </div>
-                                    <div class="post-content">
-                                        Multi Game Privacy Policy
-                                    </div>
-                                </div>
-                            </article>
-                            <!-- Post end-->
-                        </center>
-                        <!-- Page Navigation end-->
-                    </div>
-                </div>
+<!--blog section start-->
+<div class="module pt-100">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+                <center>
+                    <!-- Post-->
+                    <article class="post">
+                        <div class="post-wrapper">
+                            <div class="post-header">
+                                <h2 class="post-title">{{ $web->privacy_title }}</h2>
+                            </div>
+                            <div class="post-content">
+                                <h3>Multi Game Privacy Policy</h3>
+                                <p>At <strong>GameHub</strong>, your privacy is our priority. This Privacy Policy outlines how we collect, use, and safeguard your personal information while you engage with our games, including our in-game coin system and real-money transactions. By using our services, you agree to the practices described below.</p>
+
+                                <h4>1. Information We Collect</h4>
+                                <p>We collect the following types of information:</p>
+                                <ul>
+                                    <li><strong>Personal Information:</strong> When you register an account or make purchases, we may collect personal details such as your name, email address, billing information, and payment details.</li>
+                                    <li><strong>Usage Data:</strong> We may collect data on how you interact with our games, including gameplay statistics, in-game purchases, and interactions with other players.</li>
+                                    <li><strong>Device Information:</strong> Information about your device (e.g., IP address, operating system, browser type) may be collected to optimize your experience.</li>
+                                </ul>
+
+                                <h4>2. Use of Collected Information</h4>
+                                <p>We use your information to:</p>
+                                <ul>
+                                    <li>Provide and improve our services, ensuring a personalized gaming experience.</li>
+                                    <li>Facilitate in-game purchases, including the use of real money for purchasing coins or other digital assets.</li>
+                                    <li>Prevent fraud, enforce our terms of service, and ensure fair play within our games.</li>
+                                    <li>Send you updates and promotional materials, provided you opt-in for such communications.</li>
+                                </ul>
+
+                                <h4>3. In-Game Currency and Payments</h4>
+                                <p>Our games include a coin system, where players can purchase coins using real money. These coins can be used to access in-game items, bonuses, and features. Payment transactions are processed through secure third-party providers, and we do not store your full payment information.</p>
+                                <p>Please note that all purchases of in-game currency are final and non-refundable unless required by law.</p>
+
+                                <h4>4. Data Sharing and Disclosure</h4>
+                                <p>We do not sell or share your personal information with third parties for their marketing purposes. We may share your information with trusted service providers who assist us in operating the game and processing payments, under strict confidentiality agreements. Additionally, we may disclose your information to comply with legal obligations or protect the safety and security of our users.</p>
+
+                                <h4>5. Data Security</h4>
+                                <p>We take the security of your personal information seriously and implement industry-standard security measures to protect your data from unauthorized access, alteration, or disclosure.</p>
+
+                                <h4>6. Children's Privacy</h4>
+                                <p>Our games are not intended for children under the age of 13. We do not knowingly collect personal information from children without parental consent. If we discover that a child has provided us with personal information, we will take steps to delete that information promptly.</p>
+
+                                <h4>7. Your Rights</h4>
+                                <p>You have the right to access, modify, or delete your personal information at any time. You can also opt out of receiving promotional communications by adjusting your account settings or contacting our support team.</p>
+
+                                <h4>8. Changes to This Privacy Policy</h4>
+                                <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page, and we will notify you of significant changes through email or in-game notifications.</p>
+
+                                <h4>9. Contact Us</h4>
+                                <p>If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at <strong>support@gamehub.com</strong>.</p>
+
+                                <p>Last Updated: 30/09/2024</p>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- Post end-->
+                </center>
             </div>
         </div>
-        <!--blog section end-->
+    </div>
+</div>
+<!--blog section end-->
 
 
 

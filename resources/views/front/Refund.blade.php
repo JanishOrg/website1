@@ -104,33 +104,66 @@ $home = DB::table('homedetails')->first();
         </div>
         <!--breadcrumb section end-->
 
-        <!--blog section start-->
-        <div class="module pt-100">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-12">
-                        <center>
-                            <!-- Post-->
-                            <article class="post">
-                                <div class="post-wrapper">
-                                    <div class="post-header">
-                                        <h2 class="post-title">{{ $web->refund_title }}</h2>
-                                    </div>
-                                    <div class="post-content">
-                                        <p>{!! $web->refund_desc !!}</p>
-                                    </div>
-                                </div>
-                            </article>
-                            <!-- Post end-->
-                        </center>
+<!--blog section start-->
+<div class="module pt-100">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+                <center>
+                    <!-- Post-->
+                    <article class="post">
+                        <div class="post-wrapper">
+                            <div class="post-header">
+                                <h2 class="post-title">{{ $web->refund_title }}</h2>
+                            </div>
+                            <div class="post-content">
+                                <h3>Refund Policy</h3>
+                                <p>Thank you for your interest in our games at <strong>GameHub</strong>. Please review our refund policy carefully to understand your rights regarding in-game purchases, including coins, items, and other digital content.</p>
 
+                                <h4>1. In-Game Purchases and Digital Goods</h4>
+                                <p>All purchases of in-game currency (such as coins) and digital items (such as skins, power-ups, or other virtual goods) are final and non-refundable. Once a purchase is completed and credited to your account, you will not be able to cancel or receive a refund for the transaction unless required by law.</p>
+                                <p>Please be sure of your decision before confirming any in-game purchases.</p>
 
-                        <!-- Page Navigation end-->
-                    </div>
-                </div>
+                                <h4>2. Exceptions to the No-Refund Policy</h4>
+                                <p>In certain circumstances, we may offer a refund or reversal of charges, including but not limited to:</p>
+                                <ul>
+                                    <li>If the in-game currency or items were not delivered correctly due to a technical issue.</li>
+                                    <li>If there was a fraudulent transaction made without your consent. In this case, please notify us immediately at <strong>support@gamehub.com</strong>.</li>
+                                    <li>Where local consumer protection laws mandate a refund.</li>
+                                </ul>
+
+                                <h4>3. How to Request a Refund</h4>
+                                <p>If you believe you qualify for a refund based on the above criteria, please contact our support team at <strong>support@gamehub.com</strong>. When submitting a refund request, please include the following information:</p>
+                                <ul>
+                                    <li>Your account username or email address.</li>
+                                    <li>The details of the purchase (date, amount, and description of the item).</li>
+                                    <li>A brief explanation of why you are requesting the refund.</li>
+                                </ul>
+                                <p>We aim to review and respond to refund requests within 5-7 business days.</p>
+
+                                <h4>4. Refunds for Payments Made via Third-Party Platforms</h4>
+                                <p>If you made your purchase through a third-party platform (such as the Apple App Store, Google Play Store, or other payment providers), please note that refund requests will need to be submitted directly through their support systems. We are unable to process refunds for payments made through third-party platforms.</p>
+
+                                <h4>5. Chargebacks</h4>
+                                <p>If we detect any fraudulent chargebacks or refund requests, we reserve the right to suspend or permanently terminate your account. Please ensure that all payment-related inquiries are handled in good faith.</p>
+
+                                <h4>6. Changes to This Policy</h4>
+                                <p>We reserve the right to modify or update this Refund Policy at any time. Any changes will be posted on this page, and significant changes will be communicated through email or in-game notifications. Your continued use of our services after any policy update signifies your acceptance of the new terms.</p>
+
+                                <h4>7. Contact Us</h4>
+                                <p>If you have any questions regarding our refund policy, feel free to contact our support team at <strong>support@gamehub.com</strong>.</p>
+
+                                <p>Last Updated: 30/09/2024 </p>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- Post end-->
+                </center>
             </div>
         </div>
-        <!--blog section end-->
+    </div>
+</div>
+<!--blog section end-->
 
 
 

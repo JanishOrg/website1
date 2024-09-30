@@ -105,33 +105,47 @@ $home = DB::table('homedetails')->first();
         </div>
         <!--breadcrumb section end-->
 
-        <!--blog section start-->
-        <div class="module pt-100">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-12">
-                        <center>
-                            <!-- Post-->
-                            <article class="post">
-                                <div class="post-wrapper">
-                                    <div class="post-header">
-                                        <h2 class="post-title">{{ $web->about_title }}</h2>
-                                    </div>
-                                    <div class="post-content">
-                                        <p>{!! $web->about_desc !!}</p>
-                                    </div>
-                                </div>
-                            </article>
-                            <!-- Post end-->
-                        </center>
-
-
-                        <!-- Page Navigation end-->
-                    </div>
-                </div>
+<!--blog section start-->
+<div class="module pt-100">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+                <center>
+                    <!-- Post-->
+                    <article class="post">
+                        <div class="post-wrapper">
+                            <div class="post-header">
+                                <h2 class="post-title">About Our Games</h2>
+                            </div>
+                            <div class="post-content">
+                                <p>Welcome to <strong>GameHub</strong>, where classic fun meets modern excitement! Explore our top five games that are designed for all ages and offer endless entertainment.</p>
+                                
+                                <h3>1. Ludo</h3>
+                                <p>The beloved classic board game brought to life in a new and exciting way! Roll the dice, move your tokens, and race your opponents to the finish. Whether playing with friends or AI, Ludo guarantees hours of fun and strategic gameplay.</p>
+                                
+                                <h3>2. Snake and Ladders</h3>
+                                <p>Climb up the ladders and avoid the snakes in this timeless game of chance! Simple yet thrilling, Snake and Ladders brings the excitement of childhood back to life. Perfect for family game nights or casual fun with friends.</p>
+                                
+                                <h3>3. Lucky Number</h3>
+                                <p>Test your luck in this thrilling number game! Choose your lucky number, spin the wheel, and see if fortune is on your side. Whether you're feeling lucky or strategic, this game is all about chance and excitement.</p>
+                                
+                                <h3>4. Fruit Slash</h3>
+                                <p>Get ready for some juicy action! Swipe your way through a barrage of fruits and aim for high scores. With addictive gameplay and vibrant graphics, Fruit Slash is a fast-paced arcade game that keeps you coming back for more.</p>
+                                
+                                <h3>5. Spin Wheel</h3>
+                                <p>Spin the wheel and win big! Spin Wheel offers endless fun with exciting rewards at every turn. Whether you’re trying your luck for prizes or just enjoying the thrill of the spin, this game is perfect for players looking for a quick and entertaining experience.</p>
+                                
+                                <p>Join us at <strong>GameHub</strong> and dive into these classic games reimagined for today’s gamers!</p>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- Post end-->
+                </center>
             </div>
         </div>
-        <!--blog section end-->
+    </div>
+</div>
+<!--blog section end-->
 
 
 

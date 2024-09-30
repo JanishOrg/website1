@@ -104,33 +104,78 @@ $home = DB::table('homedetails')->first();
         </div>
         <!--breadcrumb section end-->
 
-        <!--blog section start-->
-        <div class="module pt-100">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-12">
-                        <center>
-                            <!-- Post-->
-                            <article class="post">
-                                <div class="post-wrapper">
-                                    <div class="post-header">
-                                        <h2 class="post-title">{{ $web->terms_title }}</h2>
-                                    </div>
-                                    <div class="post-content">
-                                        <p>{!! $web->terms_desc !!}</p>
-                                    </div>
-                                </div>
-                            </article>
-                            <!-- Post end-->
-                        </center>
+<!--blog section start-->
+<div class="module pt-100">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+                <center>
+                    <!-- Post-->
+                    <article class="post">
+                        <div class="post-wrapper">
+                            <div class="post-header">
+                                <h2 class="post-title">{{ $web->terms_title }}</h2>
+                            </div>
+                            <div class="post-content">
+                                <p><strong>Welcome to GameHub! By using our services, you agree to the following terms and conditions. Please read them carefully before engaging with our games or making any purchases.</strong></p>
 
+                                <h4>1. Acceptance of Terms</h4>
+                                <p>By downloading, accessing, or using our games, you agree to these Terms and Conditions. If you do not agree with these terms, you may not use our services. We reserve the right to update these terms at any time, and your continued use of our services signifies acceptance of the updated terms.</p>
 
-                        <!-- Page Navigation end-->
-                    </div>
-                </div>
+                                <h4>2. Account Registration</h4>
+                                <p>To access certain features, you may be required to create an account. You agree to provide accurate information during registration and to keep your login credentials secure. You are responsible for any activity that occurs under your account.</p>
+
+                                <h4>3. In-Game Currency and Purchases</h4>
+                                <p>Our games may feature an in-game currency system, such as coins, which can be purchased with real money. You agree that:</p>
+                                <ul>
+                                    <li>All purchases of in-game currency are final and non-refundable unless required by law.</li>
+                                    <li>In-game currency has no real-world value and cannot be redeemed for cash.</li>
+                                    <li>We reserve the right to modify the availability or pricing of in-game items and currency at any time.</li>
+                                    <li>You are solely responsible for any purchases made through your account, including accidental purchases.</li>
+                                </ul>
+
+                                <h4>4. Payments and Billing</h4>
+                                <p>When making real-money purchases, you agree to provide accurate payment information. All payments are processed through secure third-party payment providers. We are not responsible for any issues arising from payment provider services.</p>
+
+                                <h4>5. User Conduct</h4>
+                                <p>You agree to use our services in a lawful and respectful manner. You may not:</p>
+                                <ul>
+                                    <li>Engage in any behavior that is harmful, abusive, or harassing to other players.</li>
+                                    <li>Use cheats, exploits, or third-party software to gain an unfair advantage.</li>
+                                    <li>Impersonate another person or misrepresent your identity.</li>
+                                    <li>Violate the intellectual property rights of GameHub or any third parties.</li>
+                                </ul>
+                                <p>We reserve the right to suspend or terminate your account if you violate these rules or engage in behavior that negatively impacts the game community.</p>
+
+                                <h4>6. Intellectual Property</h4>
+                                <p>All content in our games, including but not limited to graphics, design, and gameplay, is the property of GameHub. You are not permitted to reproduce, distribute, or create derivative works without our prior written consent.</p>
+
+                                <h4>7. Limitation of Liability</h4>
+                                <p>GameHub is not liable for any damages resulting from the use or inability to use our services. This includes, but is not limited to, loss of data, in-game currency, or personal information. In no event shall our liability exceed the amount you paid to access the game or related services.</p>
+
+                                <h4>8. Termination</h4>
+                                <p>We reserve the right to terminate or suspend your access to our games at any time, for any reason, including violation of these Terms and Conditions. Upon termination, you will lose access to your account, in-game currency, and any purchased items, without refund.</p>
+
+                                <h4>9. Changes to Terms and Services</h4>
+                                <p>We may update these Terms and Conditions or modify our services at any time. We will notify you of significant changes through email or in-game notifications. Your continued use of our services after the update constitutes your acceptance of the new terms.</p>
+
+                                <h4>10. Governing Law</h4>
+                                <p>These Terms and Conditions are governed by the laws of [Insert Jurisdiction]. Any disputes arising from your use of our services will be subject to the exclusive jurisdiction of the courts in [Insert Jurisdiction].</p>
+
+                                <h4>11. Contact Information</h4>
+                                <p>If you have any questions about these Terms and Conditions, please contact us at <strong>support@gamehub.com</strong>.</p>
+
+                                <p>Last Updated: 30/09/2024 </p>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- Post end-->
+                </center>
             </div>
         </div>
-        <!--blog section end-->
+    </div>
+</div>
+<!--blog section end-->
 
 
 
